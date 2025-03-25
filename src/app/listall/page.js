@@ -65,7 +65,7 @@ export default function BasicTable() {
         setOpenEditDialog(false);
       }
     } catch (error) {
-      console.error("Error updating user:", error);
+      console.error("Error updating User:", error);
       alert("Failed to update user. Please check the console for details.");
     }
   };
